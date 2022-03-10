@@ -447,7 +447,7 @@ body{ min-width: 310px; background-color: #f7f7f7; }
     justify-content: flex-end;
     left: 0;
     z-index: -1;
-    /* visibility: hidden; */
+    visibility: hidden;
     transition: opacity 0.25s ease-out;
   }
   .ws-top .nav-list .limit{
@@ -493,6 +493,7 @@ body{ min-width: 310px; background-color: #f7f7f7; }
     transform: translateX(-200px);
   }
   .ohide .ws-top .nav-list{
+    visibility: visible;
     opacity: 1;
     z-index: 10;
   }
